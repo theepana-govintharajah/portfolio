@@ -56,7 +56,6 @@ body {
     color: #fff;
   }
   
-  
   #header .profile .social-links a {
     font-size: 18px;
     display: inline-block;
@@ -90,7 +89,6 @@ body {
       margin-left: 0;
     }
   }
-  
   
   /*--------------------------------------------------------------
 # Navigation Menu
@@ -198,8 +196,6 @@ body {
   transition: background 0.2s ease-in-out;
 }
 
-
-
   /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -268,8 +264,6 @@ body {
     }
   }
 
-
-
   /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -313,9 +307,6 @@ section {
   margin-bottom: 0;
   color: rgba(10,10,10,0.7);
 }
- 
-
-
 
 /*--------------------------------------------------------------
 # About
@@ -345,17 +336,12 @@ section {
   margin-bottom: 0;
 }
 
-
-
-
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 200px;
   position: relative;
   margin-left: 60px;
 }
-
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -404,9 +390,6 @@ section {
   .text {font-size: 11px}
 }
 
-
-
-
 .linkedIn{
   background-color: #149ddd;
   color: white;
@@ -418,12 +401,9 @@ section {
   width: 200px;
 }
 
-
 .linkedIn:hover{
   background-color:#173b6c ;
 }
-
-
 
 /*--------------------------------------------------------------
 # Skills
@@ -463,15 +443,11 @@ section {
   transition: .9s;
   background-color: #149ddd;
   border-radius: 25px;
-  
 }
-
 
 .project h2{
   color:#173b6c ;
 }
-
-
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -496,7 +472,6 @@ section {
   margin: 0;
 }
 
-
 .testimonials .owl-nav, .testimonials .owl-dots {
   margin-top: 10px;
   text-align: center;
@@ -520,8 +495,6 @@ section {
     margin: 30px 10px;
   }
 }
-
-
 
 /*--------------------------------------------------------------
 # Participation
@@ -623,8 +596,6 @@ section {
   opacity: 1;
   bottom: 0;
 }
-
-
 
 /*--------------------------------------------------------------
 # Contact
@@ -807,3 +778,40 @@ section {
     transform: rotate(360deg);
   }
 }
+
+/* Card styles for Articles section */
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  margin-bottom: 32px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px 20px 20px 20px;
+  position: relative;
+}
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(20,157,221,0.18);
+}
+.card .card-title {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.card .bx {
+  opacity: 0.8;
+}
+
+/* Specific color classes for cards */
+.card-blue { background: #149ddd; color: #fff; }
+.card-red { background: #e74c3c; color: #fff; }
+.card-grey { background: #7f8c8d; color: #fff; }
+.card-black { background: #000; color: #fff; }
+
+.card a { color: #fff; text-decoration: underline; font-weight: 500; }
+.card a:hover { color: #dce8f8; }
